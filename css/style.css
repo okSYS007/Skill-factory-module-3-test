@@ -1,0 +1,411 @@
+@font-face { 
+    font-family: "Open Sans regular"; 
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {  
+    font-family: "Open Sans extra bold";
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}    
+
+@font-face {  
+    font-family: "Open Sans bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+} 
+
+@media screen and (max-width: 1286px) {
+.intro {
+    flex-wrap: nowrap;
+}
+}   
+@media screen and (max-width: 700px) {
+.intro {
+    flex-wrap: wrap;
+}
+} 
+
+@media screen and (max-width: 1286px) {
+.intro-image {
+    width: 100%;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 700px) {
+    .intro-image {
+        width: 100%;
+        height: auto;
+    }
+    }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F2F2;
+    padding-top: 25px;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Open Sans regular";
+}
+
+.navheader {
+    width: 100%;
+    max-width: 1249px;
+    min-height: 73px;
+    background-color: #000000;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navheader ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navheader a {
+    text-decoration: none;
+    padding: 27px;
+    color: #E0E0E0;
+    align-items: center; 
+}
+
+.navheader a:hover {
+    background-color: #ff3f40;
+}
+
+.intro {
+    display: flex;
+    max-width: 1249px;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.intro-left {
+    max-width: 50%;
+}
+
+.intro-left h1 {
+    font-size: 60px;
+    text-transform: uppercase; 
+    font-family: "Open Sans extra bold";
+    margin-top: 73px;
+}
+
+.intro-text {
+    margin-bottom: 24px;
+}
+
+.button {
+    font-family: "Open Sans bold";    
+    background-color: #ff3f40;
+    text-align: center;
+    width: 227px;
+    height: 55px;
+    line-height: 52px;
+    border-radius: 10px;
+}
+
+.intro-right {
+  display: flex;
+}
+
+.intro-image {
+    margin-top: 84px;
+}
+
+.button > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Provide {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 115px;
+    width: 100%;
+}
+
+.Provide-left {
+    max-width: 600px;
+}
+
+.Provide-left h1 {
+    text-transform: uppercase;
+    font-family: "Open Sans bold";
+    max-width: 450px;
+}
+
+.Provide-left a {
+    font-family: "Open Sans bold";    
+    background-color: #fff;
+    text-align: center; 
+    border: 2px solid #FF0000;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FF2D2D;
+    padding: 20px 0;
+    display: block;
+    width: 250px;
+}
+
+
+.Provide-right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex: 1 1;
+}
+
+.Provide-Box:nth-child(odd) {
+    margin-right: 32px;
+}
+
+.Provide-Box {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.Feature-Products {
+    display: flex;
+    flex-direction: column;
+}
+.Feature-Products-header {
+    width: 555px;
+    text-align: center;
+    align-self: center;
+}
+
+.Feature-Products-header h3{
+    text-transform: uppercase;
+}
+
+.Feature-nav {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Feature-nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.Feature-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Feature-nav a:hover {
+    color: red;
+}
+
+
+.Feature-Table {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Feature-Box {
+    
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.Feature-Underline {
+    width: 134px;
+    height: 5px;
+    background-color: #FF2D2D;
+}
+
+.Meet-Our-Team {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.Meet-Our-Team-Header {
+    width: 470px;
+}
+
+.Meet-Our-Team-Header h3 {
+    text-transform: uppercase;
+}
+
+.Meet-Our-Team-Content {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Meet-Our-Team-Content-Main-Pic {
+    width: 300px;
+    height: 500px;
+    background-color: red;
+}
+
+.Meet-Our-Team-Content-Right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-left: 50px;
+    width: 71%;
+}
+
+.Meet-Our-Team-Content-Right-Top {
+    width: 700px;
+}
+
+.Meet-Our-Team-Content-Right-Top h3 {
+    text-transform: uppercase;
+}
+
+.Meet-Our-Team-Content-Right ul{
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0 0;
+}
+
+.Meet-Our-Team-Content-Right li{
+    display: inline-block;
+}
+
+.Meet-Our-Team-Content-People {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.Meet-Our-Team-Content-People-Box {
+    width: 200px;
+    height: 240px;
+    background-color: red;
+}
+
+.Design-Tips {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #2C2C2C;
+    color: #fff;
+}
+
+.Design-Tips-Form {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.Design-Tips-Form-Email {
+    width: 400px;
+    height: 44px;
+    border-radius: 5px;
+}
+
+.Design-Tips-Form-Button {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.Get-In-Touch {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Get-In-Touch-Top {
+    width: 50%;
+}
+
+.Get-In-Touch-Form {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.Get-In-Touch-Input {
+    width: 290px;
+    height: 50px;
+}
+   
+.Get-In-Touch-Message {
+    margin-top: 15px;
+    height: 400px;
+    width: 100%;
+}
+
+.Get-In-Touch-Button {
+    margin-top: 15px;
+    width: 100%;
+    height: 55px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+}
+
+.Get-In-Touch-Form-Input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.Get-In-Touch-Form-Contact {
+    background-color: black;
+    color: #fff;
+    width: 42%;
+    padding-top: 65px;
+}
+
+footer {
+    width: 100%;
+    max-width: 1249px;
+    margin-top: 100px;
+}
+
+.footerblock {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #313030;  
+    font-family: "Open Sans regular";  
+    min-height: 112px;
+    align-items: center;
+}
+
+.footer-text {
+    color: #B8B8B8;
+    max-width: 376px;
+    margin-left: 95px;
+    display: inline-block;
+}
+
+.socialmedia > a {
+    display: inline-block;
+    margin-right: 18px;
+}
