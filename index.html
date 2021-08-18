@@ -113,10 +113,12 @@
         <div class="Design-Tips">
             <h3>Design tips, tricks, and freebies. Delivered weekly.</h3>     
             <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p> 
-            <div class="Design-Tips-Form">
-                <input class="Design-Tips-Form-Email" type="email" placeholder="Email Address...">    
-                <button class="Design-Tips-Form-Button">Subscribe</button>    
-            </div>  
+            <form action="GET">
+                <div class="Design-Tips-Form">
+                    <input class="Design-Tips-Form-Email" type="email" placeholder="Email Address..." required>    
+                    <button class="Design-Tips-Form-Button">Subscribe</button>    
+                </div>  
+            </form>
         </div>
         <div class="Get-In-Touch">
             <div class="Get-In-Touch-Top">
@@ -124,12 +126,14 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                 <hr class="Feature-Underline" style= "margin: 40px 0;">
             </div>
-            <div class="Get-In-Touch-Form"> 
-                <div class="Get-In-Touch-Form-Input">
-                <input class = "Get-In-Touch-Input" type="text" placeholder="Name">   
-                <input class = "Get-In-Touch-Input" type="text" placeholder="Your Mail">  
-                <input class = "Get-In-Touch-Message" type="text" placeholder="Type your message">      
-                <input class = "Get-In-Touch-Button" type="button" value="Send Message">
+            <div class="Get-In-Touch-Form">          
+            <div class="Get-In-Touch-Form-Input">
+                <form action="GET">
+                    <input class = "Get-In-Touch-Input" type="text" placeholder="Name" required>   
+                    <input class = "Get-In-Touch-Input" type="email" placeholder="Your Mail" required>  
+                    <input class = "Get-In-Touch-Message" type="text" placeholder="Type your message" required>      
+                    <button class = "Get-In-Touch-Button"> Send Message</button>
+                </form>        
             </div>
                 <div class="Get-In-Touch-Form-Contact">
                     <h4>Contact Info</h4>

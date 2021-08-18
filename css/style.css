@@ -302,11 +302,17 @@ p {
 }
 
 .Design-Tips {
+    display: flex;
     margin-top: 100px;
     width: 100%;
+    height: 300px;
     text-align: center;
     background-color: #2C2C2C;
     color: #fff;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Design-Tips-Form {
